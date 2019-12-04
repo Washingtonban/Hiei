@@ -9,7 +9,7 @@ Library         SeleniumLibrary
 
 #### Setup e Teardown
 Abrir navegado logado
-    Open Browser        ${URL}              ${BROWSER}  #options=${OPTIONS}
+    Open Browser        ${URL}              ${BROWSER}  options=${OPTIONS}
     Set Selenium Implicit Wait              10
     Maximize Browser Window
 
