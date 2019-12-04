@@ -8,7 +8,7 @@ Library         SeleniumLibrary
 *** Keywords ***
 
 #### Setup e Teardown
-Abrir navegado logado
+Abrir navegado
     Open Browser        ${URL}              ${BROWSER}  options=${OPTIONS}
     Set Selenium Implicit Wait              10
     Maximize Browser Window
