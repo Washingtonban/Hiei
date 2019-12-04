@@ -18,7 +18,7 @@ pipeline{
         }
         stage("Testes"){
             steps{
-                sh "robot -d results -v BROWSER:headlesschrome specs/"
+                sh "robot -d results specs/"
             }
         }
         stage("Relatório"){
